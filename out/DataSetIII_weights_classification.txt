@@ -1,0 +1,9 @@
+[0, 0, 0] 0
+[0, 0, 1] 0 -- Incorrect output
+[0, 1, 0] 0 -- Incorrect output
+[0, 1, 1] 0
+[1, 0, 0] 1
+[1, 0, 1] 1 -- Incorrect output
+[1, 1, 0] 1 -- Incorrect output
+[1, 1, 1] 1
+Data classified with 50.0% accuracy.
