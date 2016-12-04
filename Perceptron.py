@@ -1,10 +1,6 @@
-import numpy
 import os
 import sys
 import subprocess
-import lib.ReadData
-import lib.NeuralNetwork
-import lib.WriteData
 
 from lib.HevisideStepFunction import theta
 

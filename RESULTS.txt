@@ -1,0 +1,8 @@
+# DataSetI:   (!x1 && !x2) || (x1 && !x2)
+# DataSetII:  (x1 && x2) || (x1 && x3) || (x2 && x3)
+# DataSetIII: !x1 && (x2 ^ x3) || x1 && (!x2 && !x3 || x2 && x3)
+# DataSetIV:  x1 ^ x2 -- XOR
+
+The perceptron was able to converge on all weights, however it was not able to learn the rule for data sets III and IV.
+This is because the logic functions for data sets III and IV contain an XOR between two variables, which a single neuron
+cannot learn a rule for.
